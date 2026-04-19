@@ -1,0 +1,21 @@
+{
+  "stocks": [
+    {
+      "id": "bfb85500-c95d-4b59-8dd5-99edc9689b24",
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "shares": 10.0,
+      "buy_price": 150.0,
+      "buy_date": "2024-01-01",
+      "added_at": "2026-04-14T06:02:06.704479"
+    }
+  ],
+  "audit_log": [
+    {
+      "id": "199cc63a-eb43-400d-b466-d274660bb315",
+      "timestamp": "2026-04-14T06:02:06.705179",
+      "action": "ADD_STOCK",
+      "details": "Added 10.0 shares of AAPL at $150.0"
+    }
+  ]
+}

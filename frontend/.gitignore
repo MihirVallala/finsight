@@ -1,0 +1,100 @@
+# ── PYTHON ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+
+# ── VIRTUAL ENVIRONMENTS ──────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# ── ENVIRONMENT VARIABLES (NEVER push these!) ─────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+*.env
+
+# ── DATABASE & DATA FILES ─────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+portfolio.json
+finsight.db
+
+# ── LOGS ──────────────────────────────────────────────────────
+logs/
+*.log
+log/
+
+# ── ML MODELS (too large for GitHub) ─────────────────────────
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.safetensors
+models/weights/
+backend/models/saved/
+
+# ── NODE / FRONTEND ───────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/.vite/
+.npm
+*.tsbuildinfo
+
+# ── OS FILES ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDE / EDITOR ──────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ── COVERAGE / TESTING ────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+
+# ── MISC ──────────────────────────────────────────────────────
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json   
